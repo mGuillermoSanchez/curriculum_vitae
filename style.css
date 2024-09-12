@@ -6,7 +6,7 @@ body {
     background-color: #fff;
     color: #000;
 
-    background: url("src/fond1.jpg") no-repeat;
+    background: url("src/fond.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
