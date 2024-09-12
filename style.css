@@ -13,7 +13,7 @@ body {
 
 .ecran {
     width: 900px;
-    height: calc(1250px - 200px); 
+    height: calc(1200px - 200px); 
     margin: 100px auto;
 
     border: 2px solid rgba(255, 255, 255, 0.5);
