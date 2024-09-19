@@ -93,13 +93,15 @@ body {
     width: 100px;
     height: auto;
     cursor: pointer;
-    transition: box-shadow .2s;
+    transform: scale(1);
     border-radius: 250px;
     background-color: #fff;
+    animation: anssi 1s infinite;
 }
 
-.anssi:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+@keyframes anssi {
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
 }
 
 .left-section .ref {
